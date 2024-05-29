@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C813EE792C07CFFC007FD0CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C885DAFD2C07C88E00EB8DC2 /* SettingsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheetView.swift; sourceTree = "<group>"; };
 		C89686592C0720E5009AC8DC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C896865C2C07211E009AC8DC /* bondify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bondify.xcdatamodel; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 				C885DAFF2C07CC6800EB8DC2 /* View */,
 				C896865E2C07221D009AC8DC /* Model */,
 				C89686662C0726F1009AC8DC /* Bondify.entitlements */,
+				C813EE792C07CFFC007FD0CC /* README.md */,
 				C8C771772BFCAB8C00E5A3DC /* Preview Content */,
 			);
 			path = Bondify;
