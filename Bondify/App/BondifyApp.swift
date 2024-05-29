@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct BondifyApp: App {
+    
+    let persistence = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
         }
     }
 }

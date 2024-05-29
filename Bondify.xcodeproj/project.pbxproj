@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C885DAFE2C07C88E00EB8DC2 /* SettingsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885DAFD2C07C88E00EB8DC2 /* SettingsSheetView.swift */; };
+		C896865A2C0720E5009AC8DC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89686592C0720E5009AC8DC /* Persistence.swift */; };
+		C896865D2C07211E009AC8DC /* bondify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C896865B2C07211E009AC8DC /* bondify.xcdatamodeld */; };
+		C89686602C072227009AC8DC /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C896865F2C072227009AC8DC /* Tab.swift */; };
+		C89686622C0723A9009AC8DC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89686612C0723A9009AC8DC /* Item.swift */; };
+		C89686652C072451009AC8DC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89686642C072451009AC8DC /* ContentViewModel.swift */; };
+		C89686682C072811009AC8DC /* TabSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89686672C072811009AC8DC /* TabSheetView.swift */; };
+		C896866A2C074FDD009AC8DC /* ItemSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89686692C074FDD009AC8DC /* ItemSheetView.swift */; };
 		C8C771722BFCAB8B00E5A3DC /* BondifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C771712BFCAB8B00E5A3DC /* BondifyApp.swift */; };
 		C8C771742BFCAB8B00E5A3DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C771732BFCAB8B00E5A3DC /* ContentView.swift */; };
 		C8C771762BFCAB8C00E5A3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C771752BFCAB8C00E5A3DC /* Assets.xcassets */; };
 		C8C771792BFCAB8C00E5A3DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C771782BFCAB8C00E5A3DC /* Preview Assets.xcassets */; };
+		C8C771802BFCB0C600E5A3DC /* TabDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7717F2BFCB0C600E5A3DC /* TabDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C885DAFD2C07C88E00EB8DC2 /* SettingsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheetView.swift; sourceTree = "<group>"; };
+		C89686592C0720E5009AC8DC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C896865C2C07211E009AC8DC /* bondify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bondify.xcdatamodel; sourceTree = "<group>"; };
+		C896865F2C072227009AC8DC /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		C89686612C0723A9009AC8DC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C89686642C072451009AC8DC /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		C89686662C0726F1009AC8DC /* Bondify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bondify.entitlements; sourceTree = "<group>"; };
+		C89686672C072811009AC8DC /* TabSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSheetView.swift; sourceTree = "<group>"; };
+		C89686692C074FDD009AC8DC /* ItemSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSheetView.swift; sourceTree = "<group>"; };
 		C8C7716E2BFCAB8B00E5A3DC /* Bondify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bondify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C771712BFCAB8B00E5A3DC /* BondifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondifyApp.swift; sourceTree = "<group>"; };
 		C8C771732BFCAB8B00E5A3DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8C771752BFCAB8C00E5A3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C771782BFCAB8C00E5A3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8C7717F2BFCB0C600E5A3DC /* TabDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C885DAFF2C07CC6800EB8DC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8C771732BFCAB8B00E5A3DC /* ContentView.swift */,
+				C8C7717F2BFCB0C600E5A3DC /* TabDetailView.swift */,
+				C89686672C072811009AC8DC /* TabSheetView.swift */,
+				C89686692C074FDD009AC8DC /* ItemSheetView.swift */,
+				C885DAFD2C07C88E00EB8DC2 /* SettingsSheetView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C885DB002C07CC8000EB8DC2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C8C771752BFCAB8C00E5A3DC /* Assets.xcassets */,
+				C8C771712BFCAB8B00E5A3DC /* BondifyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C896865E2C07221D009AC8DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C89686642C072451009AC8DC /* ContentViewModel.swift */,
+				C89686592C0720E5009AC8DC /* Persistence.swift */,
+				C896865B2C07211E009AC8DC /* bondify.xcdatamodeld */,
+				C896865F2C072227009AC8DC /* Tab.swift */,
+				C89686612C0723A9009AC8DC /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C8C771652BFCAB8B00E5A3DC = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +103,10 @@
 		C8C771702BFCAB8B00E5A3DC /* Bondify */ = {
 			isa = PBXGroup;
 			children = (
-				C8C771712BFCAB8B00E5A3DC /* BondifyApp.swift */,
-				C8C771732BFCAB8B00E5A3DC /* ContentView.swift */,
-				C8C771752BFCAB8C00E5A3DC /* Assets.xcassets */,
+				C885DB002C07CC8000EB8DC2 /* App */,
+				C885DAFF2C07CC6800EB8DC2 /* View */,
+				C896865E2C07221D009AC8DC /* Model */,
+				C89686662C0726F1009AC8DC /* Bondify.entitlements */,
 				C8C771772BFCAB8C00E5A3DC /* Preview Content */,
 			);
 			path = Bondify;
@@ -137,8 +190,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89686652C072451009AC8DC /* ContentViewModel.swift in Sources */,
 				C8C771742BFCAB8B00E5A3DC /* ContentView.swift in Sources */,
+				C896865A2C0720E5009AC8DC /* Persistence.swift in Sources */,
+				C8C771802BFCB0C600E5A3DC /* TabDetailView.swift in Sources */,
+				C89686602C072227009AC8DC /* Tab.swift in Sources */,
+				C89686682C072811009AC8DC /* TabSheetView.swift in Sources */,
+				C89686622C0723A9009AC8DC /* Item.swift in Sources */,
+				C896865D2C07211E009AC8DC /* bondify.xcdatamodeld in Sources */,
 				C8C771722BFCAB8B00E5A3DC /* BondifyApp.swift in Sources */,
+				C885DAFE2C07C88E00EB8DC2 /* SettingsSheetView.swift in Sources */,
+				C896866A2C074FDD009AC8DC /* ItemSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bondify/Bondify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bondify/Preview Content\"";
@@ -298,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bondify/Bondify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bondify/Preview Content\"";
@@ -344,6 +408,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C896865B2C07211E009AC8DC /* bondify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C896865C2C07211E009AC8DC /* bondify.xcdatamodel */,
+			);
+			currentVersion = C896865C2C07211E009AC8DC /* bondify.xcdatamodel */;
+			path = bondify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C8C771662BFCAB8B00E5A3DC /* Project object */;
 }
