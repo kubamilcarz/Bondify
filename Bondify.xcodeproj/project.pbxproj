@@ -88,6 +88,7 @@
 		C8C771652BFCAB8B00E5A3DC = {
 			isa = PBXGroup;
 			children = (
+				C813EE792C07CFFC007FD0CC /* README.md */,
 				C8C771702BFCAB8B00E5A3DC /* Bondify */,
 				C8C7716F2BFCAB8B00E5A3DC /* Products */,
 			);
@@ -108,7 +109,6 @@
 				C885DAFF2C07CC6800EB8DC2 /* View */,
 				C896865E2C07221D009AC8DC /* Model */,
 				C89686662C0726F1009AC8DC /* Bondify.entitlements */,
-				C813EE792C07CFFC007FD0CC /* README.md */,
 				C8C771772BFCAB8C00E5A3DC /* Preview Content */,
 			);
 			path = Bondify;
